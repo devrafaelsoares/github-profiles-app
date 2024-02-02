@@ -16,6 +16,7 @@ export default function Index() {
                 <Logo className="w-8 fill-logo-color animate-spin-logo" />
                 <h2 className="font-space-grotesk font-bold text-2xl text-bold">{username}</h2>
             </a>
+            <ThemeModeToogle />
         </header>
     );
 }
