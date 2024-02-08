@@ -42,7 +42,7 @@ docker container run -d -p 5173:5173 github-profiles-app
 
 ## ❓Como usar ?
 
-### 📍 Acesse http://localhost5173
+### 📍 Acesse http://localhost:5173
 
 ### 🖥️ Utilização da aplicação em ambiente desktop
 
