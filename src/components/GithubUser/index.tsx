@@ -41,7 +41,7 @@ export default function Index({ githubReposUser, githubUser }: Props) {
                 </div>
             </article>
             <article className="w-full flex flex-col items-center">
-                <h2 className="text-center text-3xl py-2 md:py-0">Repositórios recentes</h2>
+                <h2 className="text-center text-3xl py-2 md:py-0">Principais repositórios</h2>
                 <div className="w-5/6 grid grid-cols-1 gap-2 py-6 md:grid-cols-2">
                     {getFourRepositoriesBasedForkAndStars.map(({ name, html_url, forks, stargazers_count }, index) => (
                         <Card className="w-full" key={index}>
