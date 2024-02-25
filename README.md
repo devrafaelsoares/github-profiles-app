@@ -29,7 +29,7 @@
 #### 📌 Criando a imagem do projeto:
 
 ```docker
-docker build -t github-profiles-app
+docker build . -t github-profiles-app
 ```
 
 #### 📌 Criando e executando o contâiner da imagem expondo na porta 5173
