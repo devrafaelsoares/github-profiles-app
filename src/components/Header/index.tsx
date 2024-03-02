@@ -1,4 +1,4 @@
-import Logo from '@/components/icons/Logo';
+import { Logo } from '@/components/icons';
 import ThemeModeToogle from '@/components/ThemeModeToogle';
 import { author } from '@/data/author';
 
