@@ -1,4 +1,2 @@
-import useTheme from './useTheme';
-import useFetch from './useFetch';
-
-export { useTheme, useFetch };
+export { default as useTheme } from './useTheme';
+export { default as useFetch } from './useFetch';
